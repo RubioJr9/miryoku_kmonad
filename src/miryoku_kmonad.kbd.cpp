@@ -38,10 +38,10 @@
   #endif
   U_QUOT
 #else
-  2      3      4      5      6           8      9      0      -      =
+  1      2      3      4      5           8      9      0      -      =
   q      w      e      r      t           i      o      p      [      ]
-  caps   a      s      d      f           k      l      ;      U_QUOT ent
-                x      c      v           ,      .      /
+  a      s      d      f      g           k      l      ;      U_QUOT ent
+                x      c      v           m      ,      .
 #endif
 )
 
@@ -77,4 +77,14 @@ U_MACRO_VA_ARGS(MIRYOKU_MAPPING, MIRYOKU_LAYER_SYM)
 U_MACRO_VA_ARGS(MIRYOKU_MAPPING, MIRYOKU_LAYER_FUN)
 )
 
+(deflayer NSYM
+U_MACRO_VA_ARGS(MIRYOKU_MAPPING, MIRYOKU_LAYER_NSYM)
+)
 
+(deflayer BRAC
+U_MACRO_VA_ARGS(MIRYOKU_MAPPING, MIRYOKU_LAYER_BRAC)
+)
+
+(deflayer PUNC
+U_MACRO_VA_ARGS(MIRYOKU_MAPPING, MIRYOKU_LAYER_PUNC)
+)

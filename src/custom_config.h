@@ -2,3 +2,4 @@
 // https://github.com/manna-harbour/miryoku
 
 #pragma once
+#define MIRYOKU_ALPHAS_RSTHP
